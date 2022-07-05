@@ -1,0 +1,61 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontSize": 17,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorCustomizations": {
+    "terminal.ansiGreen": "#37ff00",
+    "terminal.ansiYellow": "#fff700",
+    "terminal.ansiCyan": "#00ffee"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "class": "#ff0073",
+      "function": {
+        "foreground": "#83ee08"
+      },
+      "keyword": "#059df6",
+      "variable": "#07aaea",
+      "property": {
+        "bold": true,
+        "foreground": "#ff5e00de"
+      },
+      "parameter": {
+        "bold": true,
+        "foreground": "#00ffb3de"
+      },
+      "method": {
+        "bold": true,
+        "foreground": "#ff009dde"
+      }
+    }
+  },
+
+  "editor.tokenColorCustomizations": {
+    "[GitHub Dark]": {
+      "keywords": {
+        "foreground": "#f68a05",
+        "fontStyle": "bold"
+      }
+    }
+  },
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.2)",
+    "rgba(127,255,127,0.2)",
+    "rgba(255,127,255,0.2)",
+    "rgba(79,236,236,0.2)"
+  ],
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///c%3A/Users/aruni/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+}
